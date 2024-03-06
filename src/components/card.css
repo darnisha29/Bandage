@@ -1,0 +1,39 @@
+.shop-card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:3vw;
+    width: 36vw;
+    height: 32vh;
+    background-color: #2d8ac0ce;
+    text-align: center;
+    
+}
+.shop-card-container h3{
+    font-size: 2.5vw;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing:0.1px ;
+    color: white;
+    width: 200px;
+    text-align: start;
+    
+}
+
+.shop-card-container button{
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    font-size: 14px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing:0.2px ;
+    color: white;
+    border-radius: 5px;
+    border:  1px solid white;  
+    padding: 8px 18px; 
+    text-transform: uppercase;
+    text-align: start;
+}

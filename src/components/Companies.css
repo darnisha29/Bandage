@@ -1,0 +1,6 @@
+.companies{
+    display: flex;
+    gap:6vw;
+    justify-content: center;
+    align-items: center;
+}

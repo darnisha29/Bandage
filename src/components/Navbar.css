@@ -1,0 +1,311 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+.for-logged{
+    display: flex;
+    flex-direction: row;
+    gap:1vw;
+    justify-content: center;
+    align-items: center;
+}
+.for-not-logged{
+    display: flex;
+    flex-direction: row;
+    gap:1vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-initial{
+    margin-right: 3vw;
+    font-size: 18px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #000;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.second-nav Link{
+    text-decoration: none;
+}
+
+.logo-color{
+    color: #252B42;
+}
+.offer{
+    font-weight: 600;
+}
+.nav{
+    width: 100vw;
+    background-color: #23856D;
+     width: 100vw;
+     overflow-x:hidden;
+     color:white;
+     font-weight: 600;
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+    height:58px;
+    gap:6vw;
+}
+
+.nav 
+
+/* .call{
+    color: white;
+} */
+.call,.mail,.follow-us{
+    display: flex;
+    flex-direction:row; 
+    gap:0.2vw;
+    align-items: center;
+}
+
+.follow-us-img{
+    display: flex;
+    gap:1vw;
+    align-items: center;
+}
+.second-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 16vw;
+    text-align: center;
+    height: 59px;
+    color:  #737373;
+    font-weight:600;
+    
+}
+.second-nav .logo{
+    display: flex;
+    align-items: center;
+}
+.links{
+    color:  #737373;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1vw;
+}
+.link{
+    color:  #737373;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:1vw;
+}
+.login-register{
+    display: flex;
+    flex-direction: row;
+    gap:1.5vw;
+    align-items: center;
+}
+.login {
+    color:#23A6F0;
+}
+
+.l-color{
+    color:  #737373;
+    font-weight: 620;
+}
+
+
+.p-first-nav{
+   
+    /* flex-wrap: wrap; */
+   
+    color:white;
+    display: flex;
+    flex-direction:row ;
+    padding-left:  10vw;
+   
+    /* justify-content: center; */
+    /* align-items: center; */
+    padding-top: 2vh;
+    height: 58px;
+    gap:5vw;
+    overflow-x: hidden;
+   
+}
+.p-first-nav img{
+    
+    width: 16px;
+    height: 16px;
+}
+.follow-us img{
+    margin-top: 5px ;
+    margin-left: 15px;
+    
+}
+#p-second-nav{
+    width: 100vw;
+    /* flex-wrap: wrap; */
+    height: 206px;
+    color:white;
+    display: flex;
+    flex-direction:row ;
+    padding-left:10vw;
+    
+    /* justify-content: center; */
+    align-items: center;
+    height: 58px;
+    gap:12vw;
+   
+}
+#p-second-nav #p-links{
+   display: flex;
+   gap:15px; 
+   color:  #737373;
+}
+#p-second-nav .p-link{
+    text-decoration: none;
+    font-size:14px;
+    font-family:'Montserrat';
+    font-weight:bold;
+    line-height:24px;
+    color:#737373;
+    letter-spacing: 0.2px;
+}
+
+.nav-for-mob{
+    display: none;
+}
+
+.second-nav-mob{
+    display: none;
+}
+
+.logo h3 Link{
+    color: #252B42;
+}
+
+.second-nav-icon{
+    color: #23A6F0;
+}
+.p-shop{
+    border: none;
+    background-color: white;
+    font-weight: 600;
+    color:#737373;
+}
+
+
+
+
+
+@media (max-width:1070px) {
+    .nav{ 
+        gap:3vw;
+    }
+    .second-nav{
+        gap:8vw;
+        color:  #737373;
+    }
+    
+}
+@media (max-width:1070px) {
+    .nav{ 
+        display: none   ;
+    }
+    .second-nav{
+        gap:14vw;
+    }
+    
+}
+@media (max-width:780px) {
+    .nav{ 
+        display: none   ;
+    }
+    .second-nav{
+        gap:10vw;
+    }
+    
+}
+@media (max-width:720px) {
+    .nav{ 
+        display: none   ;
+    }
+    .second-nav{
+        gap:6vw;
+    }
+    
+}
+@media (max-width:680px) {
+    .nav{ 
+        display: none   ;
+    }
+    .second-nav{
+        display: none;
+    }
+   
+
+    .link-mob{
+        color:#737373;
+
+    }
+    .nav-for-mob-icons{
+        display: flex;
+        gap:20px;
+        color:black
+    }
+
+    .nav-for-mob-icons button{
+        border: none;
+        background-color: white;
+    }
+
+    .second-nav-icon{
+        color:black;
+    }
+
+    .nav-for-mob{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin: 10px 4vw;
+    }
+
+    .second-nav-mob{
+        margin: 80px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap:20px;
+    }
+    .links-mob{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        gap:20px;
+        font-weight: 500;
+        font-size:30px;
+        /* line-height: 24px; */
+    }
+    .login-register-mob{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        gap:5px;
+    }
+    
+}
+
+
